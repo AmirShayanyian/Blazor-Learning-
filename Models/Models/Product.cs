@@ -9,4 +9,6 @@ public class Product
     public bool IsActive { get; set; }
 
     public double Price { get; set; }
+
+    public IEnumerable<ProductProp> ProductProps { get; set; }
 }
